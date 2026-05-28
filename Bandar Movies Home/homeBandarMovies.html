@@ -49,7 +49,7 @@
 
       <div class="d-flex justify-content-center gap-3 flex-wrap">
 
-        <button class="btn btn-dark" onclick="showGenre('semua')">Semua</button>
+        <button class="btn btn-dark" onclick="getMovieByGenre()">Semua</button>
 
         <button class="btn btn-dark" onclick="getMovieByGenre('action')">Action</button>
 
@@ -272,12 +272,14 @@
 
 
     function getMovieByGenre(genre) {
-      container.innerHTML = ""; 
+      container.innerHTML = "";
 
       let result = []
       for (const element of movies) {
         if (element['genre'] === genre) {
           result.push(element)
+        } else if(!genre) {
+          result.push(element) 
         }
       }
 
@@ -300,36 +302,26 @@
 
 
 
-    function showGenre(genre) {
-
+    function showGenre() {
       container.innerHTML += ``;
 
-      let data = [];
-
-      if (genre === "semua") {
-        data = Object.values(movies).flat();
-      } else {
-        data = movies[genre];
-      }
-      // console.log(data);
-
-
-      data.forEach(movie => {
+      movies.forEach(movie => {
         container.innerHTML += `
-      <div class="col-md-2">
-        <div class="card">
-          <img src="${movie.image}" class="card-img-top">
-          <div class="card-body text-center">
-            ${movie.title}
+          <div class="col-md-2">
+            <div class="card">
+              <img src="${movie.image}" class="card-img-top">
+              <div class="card-body text-center">
+                ${movie.title}
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    `;
+          `;
       });
+      container.appendChild(container)
     }
 
     // default tampil semua
-    showGenre("semua");
+    showGenre();
 
 
     const buttons = document.querySelectorAll(".btn-dark");
