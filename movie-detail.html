@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite Movies</title>
+    <!-- bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/favoritesCSS.css" />
+  </head>
+  <body>
+    <!-- Tulisan Navbar -->
+    <nav class="navbar navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">BANDAR MOVIES</a>
+        <button class="red-btn">Sign In</button>
+      </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="container my-5">
+      <!-- Card -->
+      <div class="film-card-detail">
+        <div class="row g-0">
+          <!-- poster -->
+          <div class="col-12 col-md-3">
+            <div class="poster-wrap">
+              <img id="filmPoster" src="" alt="" class="film-poster-img" />
+              <div class="poster-fallback" id="posterFallback">
+                <span>🎬</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- info -->
+          <div class="col-12 col-md-9">
+            <div class="film-info">
+              <!-- Judul dan tahun -->
+              <div class="film-title-row">
+                <h1 class="film-title" id="filmTitle">-</h1>
+                <span class="film-year-badge" id="filmYear">-</span>
+              </div>
+
+              <!-- sinopsis -->
+              <div class="section-label">Synopsis</div>
+              <p class="film-sinopsis" id="filmSinopsis">-</p>
+
+              <!-- genre -->
+              <div class="genre-tags" id="filmGenreTags"></div>
+
+              <!-- Trailer -->
+              <div class="section-label">Trailer</div>
+              <div class="trailer-wrap">
+                <iframe
+                  id="filmTrailer"
+                  title="Trailer"
+                  src=""
+                  frameborder="0"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <!-- Rating -->
+              <div class="rating-wrap">
+                <div class="rating-bar-wrap">
+                  <div class="rating-bar" id="ratingBar"></div>
+                </div>
+                <div class="rating-percent" id="ratingPercent">-</div>
+                <div class="rating-buttons">
+                  <button class="btn-vote btn-like" id="btnLike">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"
+                      />
+                      <path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3" />
+                    </svg>
+                    <span id="likeCount">0</span>
+                  </button>
+                  <button class="btn-vote btn-dislike" id="btnDislike">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3H10z"
+                      />
+                      <path
+                        d="M17 2h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"
+                      />
+                    </svg>
+                    <span id="dislikeCount">0</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-pad"></div>
+    </main>
+
+    <!-- toast -->
+    <div class="toast-wrap" id="toastWrap"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/favoritesJS.js"></script>
+  </body>
+</html>
