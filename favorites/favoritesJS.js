@@ -295,7 +295,7 @@ const films = [
     genres: ["Sci-Fi"],
     year: 2016,
     sinopsis:
-      "Something has surfaced in Tokyo Bay. A horrific creature of tremendous size makes landfall in the city, leaving death and destruction in its wake. Then it evolves. The government assembles a task force to combat the monster when an envoy delivers classified documents with one word on the cover: GODZILLA.",
+      "Something has surfaced in Tokyo Bay. A horrific creature of tremendous size makes landfall in the city. Then it evolves. The government assembles a task force to combat the monster when an envoy delivers classified documents with one word on the cover: GODZILLA.",
     trailer: "3qX1ZU3jcfU",
     likes: 0,
     dislikes: 0,
