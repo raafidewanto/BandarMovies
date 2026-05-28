@@ -3,7 +3,7 @@ const films = [
   {
     id: 1,
     title: "SUPERMAN",
-    poster: "../gambar/action superman.jpg",
+    poster: "./img/action superman.jpg",
     genres: ["Action"],
     year: 2025,
     sinopsis:
