@@ -21,56 +21,107 @@
     <link rel="stylesheet" href="favoritesCSS.css" />
   </head>
   <body>
-    <!-- Header -->
-    <header class="site-header">
+    <!-- Tulisan Navbar -->
+    <nav class="navbar navbar-dark">
       <div class="container">
-        <div
-          class="d-flex align-items-center justify-content-between flex-wrap gap-3"
-        >
-          <div>
-            <div class="brand">O Bros</div>
-            <div class="judul">My Favorite Movies</div>
-          </div>
-          <div class="header-stats">
-            <div class="site-item">
-              <div class="num" id="stat-total">0</div>
-              <div class="label">Movies</div>
-            </div>
-            <div class="site-item">
-              <div class="num" id="stat-genres">0</div>
-              <div class="label">Genres</div>
-            </div>
-          </div>
-        </div>
+        <a class="navbar-brand" href="#">BANDAR MOVIES</a>
+        <button class="red-btn">Sign In</button>
       </div>
-    </header>
-
-    <!-- Filter Bar -->
-    <div class="filter-bar">
-      <div class="container">
-        <div
-          class="d-flex align-items-center justify-content-between flex-wrap gap-3"
-        >
-          <!-- genre pills -->
-          <div class="genre-pills" id="genrePills"></div>
-          <!-- sorting -->
-          <select class="sort-select" id="sortSelect">
-            <option value="title">Judul A-Z</option>
-            <option value="year-desc">Terbaru</option>
-            <option value="year-asc">Terlama</option>
-            <option value="rating-desc">Rating Tertinggi</option>
-          </select>
-        </div>
-      </div>
-    </div>
+    </nav>
 
     <!-- Main -->
-    <main class="container">
-      <div id="genreContainer"></div>
-      <div id="emptyState" class="empty-state section-hidden">
-        <div class="empty-icon">🎬</div>
-        <h3>Tidak ada film di genre ini</h3>
-        <p>Coba pilih genre lain</p>
+    <main class="container my-5">
+      <!-- Card -->
+      <div class="film-card-detail">
+        <div class="row g-0">
+          <!-- poster -->
+          <div class="col-12 col-md-3">
+            <div class="poster-wrap">
+              <img id="filmPoster" src="" alt="" class="film-poster-img" />
+              <div class="poster-fallback" id="posterFallback">
+                <span>🎬</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- info -->
+          <div class="col-12 col-md-9">
+            <div class="film-info">
+              <!-- Judul dan tahun -->
+              <div class="film-title-row">
+                <h1 class="film-title" id="filmTitle">-</h1>
+                <span class="film-year-badge" id="filmYear">-</span>
+              </div>
+
+              <!-- sinopsis -->
+              <div class="section-label">Synopsis</div>
+              <p class="film-sinopsis" id="filmSinopsis">-</p>
+
+              <!-- genre -->
+              <div class="genre-tags" id="filmGenreTags"></div>
+
+              <!-- Trailer -->
+              <div class="section-label">Trailer</div>
+              <div class="trailer-wrap">
+                <iframe
+                  id="filmTrailer"
+                  title="Trailer"
+                  src=""
+                  frameborder="0"
+                  allow="
+                    accelerometer;
+                    autoplay;
+                    clipboard-write;
+                    encrypted-media;
+                    gyroscope;
+                    picture-in-picture;
+                  "
+                  allowfullscreen
+                ></iframe>
+              </div>
+
+              <!-- Rating -->
+              <div class="rating-wrap">
+                <div class="rating-bar-wrap">
+                  <div class="rating-bar" id="ratingBar"></div>
+                </div>
+                <div class="rating-percent" id="ratingPercent">-</div>
+                <div class="rating-buttons">
+                  <button class="btn-vote btn-like" id="btnLike">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14z"
+                      />
+                      <path d="M7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3" />
+                    </svg>
+                    <span id="likeCount">0</span>
+                  </button>
+                  <button class="btn-vote btn-dislike" id="btnDislike">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
+                      <path
+                        d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3H10z"
+                      />
+                      <path
+                        d="M17 2h2.67A2.31 2.31 0 0 1 22 4v7a2.31 2.31 0 0 1-2.33 2H17"
+                      />
+                    </svg>
+                    <span id="dislikeCount">0</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="footer-pad"></div>
     </main>
