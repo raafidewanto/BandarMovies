@@ -18,7 +18,7 @@ function getMovieByGenre(genre) {
     result.forEach(movie => {
         container.innerHTML += `
             <div class="col-md-2">
-            <a href="/movie-detail/?id=${movie.id}" class="text-reset text-decoration-none"> 
+            <a href="/BandarMovies/movie-detail/?id=${movie.id}" class="text-reset text-decoration-none"> 
               <div class="card">
                 <img src="${movie.poster}" class="card-img-top">
                 <div class="card-body text-center">
@@ -51,7 +51,7 @@ function showGenre(genre) {
         container.innerHTML += `
       <div class="col-md-2">
         <div class="card">
-        <a href="/movie-detail/?id=${movie.id}" class="text-reset text-decoration-none"> 
+        <a href="/BandarMovies/movie-detail/?id=${movie.id}" class="text-reset text-decoration-none"> 
           <img src="${movie.poster}" class="card-img-top">
           <div class="card-body text-center underline-none">
             ${movie.title}
