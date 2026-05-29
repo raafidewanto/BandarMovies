@@ -27,16 +27,16 @@
             <nav class="navbar navbar-expand px-4">
 
                 <!-- Tulisan Navbar -->
-                <a class="navbar-brand fw-bold" href="#">
+                <a class="navbar-brand fw-bold" href="/index.html">
                     BANDAR MOVIES
                 </a>
 
             </nav>
             <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 
-                <button type="button" class="red-btn fw-semibold">
+                <a href="login.html" id="authBtn" class="red-btn fw-semibold">
                     Sign In
-                </button>
+                </a>
 
             </div>
         </nav>
@@ -49,7 +49,7 @@
 
             <div class="d-flex justify-content-center gap-3 flex-wrap">
 
-                <button class="btn btn-dark" onclick="showGenre('semua')">Semua</button>
+                <button class="btn btn-dark" onclick="getMovieByGenre()">Semua</button>
 
                 <button class="btn btn-dark" onclick="getMovieByGenre('action')">Action</button>
 
@@ -73,12 +73,10 @@
 
     </header>
 
+    <!-- Trigger Button --> <button type="button" id="myTriggerBtn" class="btn btn-primary" data-bs-toggle="modal"
+        data-bs-target="#myModal" style="display: none;"> </button>
 
 
-    <!-- Trigger Button -->
-    <button type="button" id="myTriggerBtn" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal"
-        style="display: none;">
-    </button>
 
     <!-- Modal with Fade -->
     <div class="modal fade" id="myModal" tabindex="-1" aria-hidden="true">
@@ -96,34 +94,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script src="./js/db.js"></script>
+
     <script src="/js/script.js"></script>
 
-    <script>
-        const modalElement = document.getElementById('myModal');
-
-
-        const myModal = new bootstrap.Modal(modalElement);
-        const btn = document.getElementById('myTriggerBtn');
-
-        function show() {
-            myModal.show();
-
-            setTimeout(() => {
-                hideModal()
-            }, 1000)
-        }
-
-        function hideModal() {
-            myModal.hide()
-        }
-
-        setTimeout(() => {
-            if (!localStorage.getItem("loading")) {
-                show()
-            }
-            localStorage.setItem("loading", true)
-        }, 1000)
-    </script>
+        
+        </script>
 </body>
 
 </html>

@@ -13,8 +13,9 @@ body {
     color: rgb(231, 10, 10);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-position: center;
-    background-image: url("https://kanal24.co.id/wp-content/uploads/2026/01/840_560.jpg");
+    background-image: url("../img/background.jpeg");
 }
+
 
 h1 {
     font-size: 25px;
@@ -30,6 +31,7 @@ h1 {
     border-radius: 10px;
     padding: 20px 80px;
 }
+
 
 #style2 input {
     padding: 20px;
@@ -76,10 +78,8 @@ h1 {
 }
 .kotak {
         
-    background-color: rgb(164, 1, 1);
-    padding: 10px;
-    width: 100%;
-    box-sizing: content-box;
+    padding: 20px 40px;
+
     /* max-width: fit-content; */
 
 }
@@ -102,4 +102,51 @@ h1 {
     display: flex;
     font-size: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* sig in button */
+.signin-btn {
+  display: block;
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+  margin: 0 auto;
+}
+
+.signin-btn:hover {
+  background-color: darkred;
+}
+
+#google_translate_element {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+
+  border: 1px solid rgba(255,255,255,0.5);
+  border-radius: 5px;
+
+  background-color: rgba(248, 246, 246, 0.5);
+
+  color: white;
+  font-family: Arial;
+}
+
+.language-box select {
+  background: black;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.language-box option {
+  color: black;
 }

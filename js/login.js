@@ -1,31 +1,24 @@
-const correctUsername = "admin";
-const correctPassword = "12345";
+const form = document.getElementById("style2");
 
-// ambil tombol login
-const loginButton = document.getElementById("loginBtn");
+form.addEventListener("submit", function (event) {
 
-// event ketika tombol diklik
-loginButton.addEventListener("click", function () {
+  // mencegah reload form
+  event.preventDefault();
+
   // ambil value input
-  const usernameInput = document.getElementById("username").value;
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
 
-  const passwordInput = document.getElementById("password").value;
-
-  // cek input kosong
-  if (usernameInput === "" || passwordInput === "") {
-    alert("Semua field wajib diisi!");
+  // validasi sederhana
+  if (username === "" || password === "") {
+    alert("Username dan password wajib diisi!");
+    return;
   }
 
-  // cek login benar
-  else if (
-    usernameInput === correctUsername &&
-    passwordInput === correctPassword
-  ) {
-    alert("Login berhasil!");
-  }
+  // simpan ke local storage
+  localStorage.setItem("username", username);
+  localStorage.setItem("password", password);
 
-  // login gagal
-  else {
-    alert("Username atau password salah!");
-  }
+  // pindah halaman
+  window.location.href = "/index.html";
 });
