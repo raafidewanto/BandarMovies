@@ -139,7 +139,7 @@ const films = [
     year: 2018,
     sinopsis:
       "If they hear you, they hunt you. A family must live in silence to avoid mysterious creatures that hunt by sound. Knowing that even the slightest whisper or footstep can bring death, Evelyn and Lee are determined to find a way to protect their children while desperately searching for a way to fight back.",
-    trailer: "nb_fFj_0rq8",
+    trailer: "YPY7J-flzE8",
     likes: 0,
     dislikes: 0,
   },
@@ -235,7 +235,7 @@ const films = [
     year: 2024,
     sinopsis:
       "A high-powered CEO puts her career and family on the line when she begins a torrid affair with her much younger intern.",
-    trailer: "8Sx6U6Ou0Q",
+    trailer: "-8Sx6U6Ou0Q",
     likes: 0,
     dislikes: 0,
   },
