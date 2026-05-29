@@ -1,8 +1,8 @@
 // Get Id
 function getFilmFromURL() {
   let params = new URLSearchParams(window.location.search);
-  // let id = parseInt(params.get("id"));
-  console.log(id); // -> check id
+  let id = parseInt(params.get("id"));
+  // console.log(id); // -> check id
   let found = null;
   for (let i = 0; i < films.length; i++) {
     if (films[i].id === id) {
