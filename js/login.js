@@ -20,5 +20,5 @@ form.addEventListener("submit", function (event) {
   localStorage.setItem("password", password);
 
   // pindah halaman
-  window.location.href = "/";
+  window.location.href = "/BandarMovies/";
 });
