@@ -3,7 +3,7 @@ const films = [
   {
     id: 1,
     title: "SUPERMAN",
-    poster: "./img/action superman.jpg",
+    poster: "../img/action superman.jpg",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -15,7 +15,7 @@ const films = [
   {
     id: 2,
     title: "BANG",
-    poster: "./img/bangaction.jpg",
+    poster: "../img/bangaction.jpg",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -27,7 +27,7 @@ const films = [
   {
     id: 3,
     title: "AVATAR: FIRE AND ASH",
-    poster: "./img/avataraction.jpg",
+    poster: "../img/avataraction.jpg",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -39,7 +39,7 @@ const films = [
   {
     id: 4,
     title: "TRON: ARES",
-    poster: "./img/tronaction.jpg",
+    poster: "../img/tronaction.jpg",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -51,7 +51,7 @@ const films = [
   {
     id: 5,
     title: "ANACONDA",
-    poster: "./img/anacondaaction.jpg",
+    poster: "../img/anacondaaction.jpg",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -63,7 +63,7 @@ const films = [
   {
     id: 6,
     title: "TOY STORY 5",
-    poster: "./img/toystory5comedy.jpg",
+    poster: "../img/toystory5comedy.jpg",
     genres: ["Comedy"],
     year: 2025,
     sinopsis:
@@ -75,7 +75,7 @@ const films = [
   {
     id: 7,
     title: "GHOSTBUSTER",
-    poster: "./img/ghostbustercomedy.jpg",
+    poster: "../img/ghostbustercomedy.jpg",
     genres: ["Comedy"],
     year: 1984,
     sinopsis:
@@ -87,7 +87,7 @@ const films = [
   {
     id: 8,
     title: "CRAZY RICH ASIANS",
-    poster: "./img/crazyrichasiancomedy.jpg",
+    poster: "../img/crazyrichasiancomedy.jpg",
     genres: ["Comedy"],
     year: 2018,
     sinopsis:
@@ -99,7 +99,7 @@ const films = [
   {
     id: 9,
     title: "KUNGFU HUSTLE",
-    poster: "./img/kungfuhustlecomedy.jpg",
+    poster: "../img/kungfuhustlecomedy.jpg",
     genres: ["Comedy"],
     year: 2004,
     sinopsis:
@@ -111,7 +111,7 @@ const films = [
   {
     id: 10,
     title: "21 JUMP STREET",
-    poster: "./img/21jumpstreetcomedy.jpg",
+    poster: "../img/21jumpstreetcomedy.jpg",
     genres: ["Comedy"],
     year: 2012,
     sinopsis:
@@ -123,7 +123,7 @@ const films = [
   {
     id: 11,
     title: "SINNERS",
-    poster: "./img/Sinnershorror.jpg",
+    poster: "../img/Sinnershorror.jpg",
     genres: ["Horror"],
     year: 2025,
     sinopsis:
@@ -135,7 +135,7 @@ const films = [
   {
     id: 12,
     title: "A QUIET PLACE",
-    poster: "./img/aquietplacehorror.jpg",
+    poster: "../img/aquietplacehorror.jpg",
     genres: ["Horror"],
     year: 2018,
     sinopsis:
@@ -147,7 +147,7 @@ const films = [
   {
     id: 13,
     title: "THE CURSE OF LA LLORONA",
-    poster: "./img/TheCurseofLaLlorona.jpg",
+    poster: "../img/TheCurseofLaLlorona.jpg",
     genres: ["Horror"],
     year: 2019,
     sinopsis:
@@ -159,7 +159,7 @@ const films = [
   {
     id: 14,
     title: "TRAIN TO BUSAN",
-    poster: "./img/traintobusanhorror.jpg",
+    poster: "../img/traintobusanhorror.jpg",
     genres: ["Horror"],
     year: 2016,
     sinopsis:
@@ -171,7 +171,7 @@ const films = [
   {
     id: 15,
     title: "WEAPONS",
-    poster: "./img/weaponshorror.jpg",
+    poster: "../img/weaponshorror.jpg",
     genres: ["Horror"],
     year: 2025,
     sinopsis:
@@ -183,7 +183,7 @@ const films = [
   {
     id: 16,
     title: "THE BALLAD OF WALLIS ISLAND",
-    poster: "./img/theballadofwallisislandromance.jpg",
+    poster: "../img/theballadofwallisislandromance.jpg",
     genres: ["Romance"],
     year: 2025,
     sinopsis:
@@ -195,7 +195,7 @@ const films = [
   {
     id: 17,
     title: "MUSICA",
-    poster: "./img/musicaromance.jpg",
+    poster: "../img/musicaromance.jpg",
     genres: ["Romance"],
     year: 2024,
     sinopsis:
@@ -207,7 +207,7 @@ const films = [
   {
     id: 18,
     title: "THE BEAST",
-    poster: "./img/beastromance.jpg",
+    poster: "../img/beastromance.jpg",
     genres: ["Romance"],
     year: 2023,
     sinopsis:
@@ -219,7 +219,7 @@ const films = [
   {
     id: 19,
     title: "THE IDEA OF YOU",
-    poster: "./img/theideaofyouromance.jpg",
+    poster: "../img/theideaofyouromance.jpg",
     genres: ["Romance"],
     year: 2024,
     sinopsis:
@@ -231,7 +231,7 @@ const films = [
   {
     id: 20,
     title: "BABY GIRL",
-    poster: "./img/babygirlromance.jpg",
+    poster: "../img/babygirlromance.jpg",
     genres: ["Romance"],
     year: 2024,
     sinopsis:
@@ -243,7 +243,7 @@ const films = [
   {
     id: 21,
     title: "THE ENDLESS",
-    poster: "./img/theendlesssci-fi.jpg",
+    poster: "../img/theendlesssci-fi.jpg",
     genres: ["Sci-Fi"],
     year: 2017,
     sinopsis:
@@ -255,7 +255,7 @@ const films = [
   {
     id: 22,
     title: "AD ASTRA",
-    poster: "./img/adastrasci-fi.jpg",
+    poster: "../img/adastrasci-fi.jpg",
     genres: ["Sci-Fi"],
     year: 2019,
     sinopsis:
@@ -267,7 +267,7 @@ const films = [
   {
     id: 23,
     title: "ALITA: BATTLE ANGEL",
-    poster: "./img/alitabattleangel.jpg",
+    poster: "../img/alitabattleangel.jpg",
     genres: ["Sci-Fi"],
     year: 2019,
     sinopsis:
@@ -279,7 +279,7 @@ const films = [
   {
     id: 24,
     title: "READY PLAYER ONE",
-    poster: "./img/readyplayeronesci-fi.jpg",
+    poster: "../img/readyplayeronesci-fi.jpg",
     genres: ["Sci-Fi"],
     year: 2018,
     sinopsis:
@@ -291,7 +291,7 @@ const films = [
   {
     id: 25,
     title: "SHIN GODZILLA",
-    poster: "./img/shingodzillasci-fi.jpg",
+    poster: "../img/shingodzillasci-fi.jpg",
     genres: ["Sci-Fi"],
     year: 2016,
     sinopsis:

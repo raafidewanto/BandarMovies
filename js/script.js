@@ -18,7 +18,7 @@ function getMovieByGenre(genre) {
     result.forEach(movie => {
         container.innerHTML += `
             <div class="col-md-2">
-            <a href="movie-detail.html?id=${movie.id}" class="text-reset text-decoration-none"> 
+            <a href="/movie-detail/?id=${movie.id}" class="text-reset text-decoration-none"> 
               <div class="card">
                 <img src="${movie.poster}" class="card-img-top">
                 <div class="card-body text-center">
@@ -51,7 +51,7 @@ function showGenre(genre) {
         container.innerHTML += `
       <div class="col-md-2">
         <div class="card">
-        <a href="movie-detail.html?id=${movie.id}" class="text-reset text-decoration-none"> 
+        <a href="/movie-detail/?id=${movie.id}" class="text-reset text-decoration-none"> 
           <img src="${movie.poster}" class="card-img-top">
           <div class="card-body text-center underline-none">
             ${movie.title}
@@ -126,7 +126,7 @@ const modalElement = document.getElementById('myModal');
       localStorage.removeItem("password");
 
       // kembali ke halaman login
-      window.location.href = "/login.html";
+      window.location.href = "/login";
     });
 
   } else {
@@ -136,7 +136,7 @@ const modalElement = document.getElementById('myModal');
 
     authBtn.addEventListener("click", function () {
 
-      window.location.href = "/login.html";
+      window.location.href = "/login";
     });
 
   }
