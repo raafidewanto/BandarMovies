@@ -3,7 +3,7 @@ const films = [
   {
     id: 1,
     title: "SUPERMAN",
-    poster: "../img/action superman.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/action%20superman.jpg?raw=true",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -15,7 +15,7 @@ const films = [
   {
     id: 2,
     title: "BANG",
-    poster: "../img/bangaction.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/bangaction.jpg?raw=true",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -27,7 +27,7 @@ const films = [
   {
     id: 3,
     title: "AVATAR: FIRE AND ASH",
-    poster: "../img/avataraction.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/avataraction.jpg?raw=true",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -39,7 +39,7 @@ const films = [
   {
     id: 4,
     title: "TRON: ARES",
-    poster: "../img/tronaction.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/tronaction.jpg?raw=true",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -51,7 +51,7 @@ const films = [
   {
     id: 5,
     title: "ANACONDA",
-    poster: "../img/anacondaaction.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/anacondaaction.jpg?raw=true",
     genres: ["Action"],
     year: 2025,
     sinopsis:
@@ -63,7 +63,7 @@ const films = [
   {
     id: 6,
     title: "TOY STORY 5",
-    poster: "../img/toystory5comedy.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/toystory5comedy.jpg?raw=true",
     genres: ["Comedy"],
     year: 2025,
     sinopsis:
@@ -75,7 +75,7 @@ const films = [
   {
     id: 7,
     title: "GHOSTBUSTER",
-    poster: "../img/ghostbustercomedy.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/ghostbustercomedy.jpg?raw=true",
     genres: ["Comedy"],
     year: 1984,
     sinopsis:
@@ -87,7 +87,7 @@ const films = [
   {
     id: 8,
     title: "CRAZY RICH ASIANS",
-    poster: "../img/crazyrichasiancomedy.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/crazyrichasiancomedy.jpg?raw=true",
     genres: ["Comedy"],
     year: 2018,
     sinopsis:
@@ -99,7 +99,7 @@ const films = [
   {
     id: 9,
     title: "KUNGFU HUSTLE",
-    poster: "../img/kungfuhustlecomedy.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/kungfuhustlecomedy.jpg?raw=true",
     genres: ["Comedy"],
     year: 2004,
     sinopsis:
@@ -111,7 +111,7 @@ const films = [
   {
     id: 10,
     title: "21 JUMP STREET",
-    poster: "../img/21jumpstreetcomedy.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/21jumpstreetcomedy.jpg?raw=true",
     genres: ["Comedy"],
     year: 2012,
     sinopsis:
@@ -123,7 +123,7 @@ const films = [
   {
     id: 11,
     title: "SINNERS",
-    poster: "../img/Sinnershorror.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/Sinnershorror.jpg?raw=true",
     genres: ["Horror"],
     year: 2025,
     sinopsis:
@@ -135,7 +135,7 @@ const films = [
   {
     id: 12,
     title: "A QUIET PLACE",
-    poster: "../img/aquietplacehorror.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/aquietplacehorror.jpg?raw=true",
     genres: ["Horror"],
     year: 2018,
     sinopsis:
@@ -147,7 +147,7 @@ const films = [
   {
     id: 13,
     title: "THE CURSE OF LA LLORONA",
-    poster: "../img/TheCurseofLaLlorona.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/TheCurseofLaLlorona.jpg?raw=true",
     genres: ["Horror"],
     year: 2019,
     sinopsis:
@@ -159,7 +159,7 @@ const films = [
   {
     id: 14,
     title: "TRAIN TO BUSAN",
-    poster: "../img/traintobusanhorror.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/traintobusanhorror.jpg?raw=true",
     genres: ["Horror"],
     year: 2016,
     sinopsis:
@@ -171,7 +171,7 @@ const films = [
   {
     id: 15,
     title: "WEAPONS",
-    poster: "../img/weaponshorror.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/weaponshorror.jpg?raw=true",
     genres: ["Horror"],
     year: 2025,
     sinopsis:
@@ -183,7 +183,7 @@ const films = [
   {
     id: 16,
     title: "THE BALLAD OF WALLIS ISLAND",
-    poster: "../img/theballadofwallisislandromance.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/theballadofwallisislandromance.jpg?raw=true",
     genres: ["Romance"],
     year: 2025,
     sinopsis:
@@ -195,7 +195,7 @@ const films = [
   {
     id: 17,
     title: "MUSICA",
-    poster: "../img/musicaromance.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/musicaromance.jpg?raw=true",
     genres: ["Romance"],
     year: 2024,
     sinopsis:
@@ -207,7 +207,7 @@ const films = [
   {
     id: 18,
     title: "THE BEAST",
-    poster: "../img/beastromance.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/beastromance.jpg?raw=true",
     genres: ["Romance"],
     year: 2023,
     sinopsis:
@@ -219,7 +219,7 @@ const films = [
   {
     id: 19,
     title: "THE IDEA OF YOU",
-    poster: "../img/theideaofyouromance.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/theideaofyouromance.jpg?raw=true",
     genres: ["Romance"],
     year: 2024,
     sinopsis:
@@ -231,7 +231,7 @@ const films = [
   {
     id: 20,
     title: "BABY GIRL",
-    poster: "../img/babygirlromance.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/babygirlromance.jpg?raw=true",
     genres: ["Romance"],
     year: 2024,
     sinopsis:
@@ -243,7 +243,7 @@ const films = [
   {
     id: 21,
     title: "THE ENDLESS",
-    poster: "../img/theendlesssci-fi.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/theendlesssci-fi.jpg?raw=true",
     genres: ["Sci-Fi"],
     year: 2017,
     sinopsis:
@@ -255,7 +255,7 @@ const films = [
   {
     id: 22,
     title: "AD ASTRA",
-    poster: "../img/adastrasci-fi.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/adastrasci-fi.jpg?raw=true?raw=true",
     genres: ["Sci-Fi"],
     year: 2019,
     sinopsis:
@@ -267,7 +267,7 @@ const films = [
   {
     id: 23,
     title: "ALITA: BATTLE ANGEL",
-    poster: "../img/alitabattleangel.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/alitabattleangel.jpg?raw=true",
     genres: ["Sci-Fi"],
     year: 2019,
     sinopsis:
@@ -279,7 +279,7 @@ const films = [
   {
     id: 24,
     title: "READY PLAYER ONE",
-    poster: "../img/readyplayeronesci-fi.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/readyplayeronesci-fi.jpg?raw=true",
     genres: ["Sci-Fi"],
     year: 2018,
     sinopsis:
@@ -291,7 +291,7 @@ const films = [
   {
     id: 25,
     title: "SHIN GODZILLA",
-    poster: "../img/shingodzillasci-fi.jpg",
+    poster: "https://github.com/raafidewanto/BandarMovies/blob/cb8436a604256453aac4a059aef014a9cf6ecd97/img/shingodzillasci-fi.jpg?raw=true",
     genres: ["Sci-Fi"],
     year: 2016,
     sinopsis:
